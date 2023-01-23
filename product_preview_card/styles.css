@@ -1,0 +1,196 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.containerGeneral{
+    background-color: white;
+    margin: auto;
+    margin-top: 10%;
+    height: 450px;
+    width: 600px;
+    border-radius: 12px;
+}
+
+.containerImage{
+    background-image: url(images/image-product-desktop.jpg);
+    display: inline;
+    float: left;
+    height: 450px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 12px 0 0 12px;
+}
+
+.containerMainInfo{
+    display: inline;
+    float: right;
+    padding: 25px 40px 25px 35px;
+    height: 400px;
+    width: 225px;
+    border-radius: 0 12px 12px 0;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 6px;
+    font-size: 11px;
+}
+
+h1 {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0;
+    line-height: 36px;
+}
+
+p{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.containerPrice{
+    height: 80px;
+    width: 225px;
+}
+
+.actualPrice{
+    float: left;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: hsl(158, 36%, 37%);
+    margin: 0;
+    padding-top: 15px;
+}
+
+.discount{
+    float: left;
+    padding-left: 24px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.iconCart{
+    background-image: url(images/icon-cart.svg);
+    background-repeat: no-repeat;
+    display: inline;
+    float: left;
+    height: 16px;
+    width: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline; 
+}
+
+.CTA{
+    background-color: hsl(158, 36%, 37%);
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    height: 18px;
+    width: 200px;
+}
+
+.CTABox{
+    margin: auto;
+    width: 115px;
+    height: 18px;
+}
+
+@media screen and (max-width: 600px){
+    body {
+    background-color: hsl(30, 38%, 92%);
+        margin-top: 25%;
+    height: 100vh;
+    width: 100vw;
+    }
+    
+    .containerImage{
+    background-image: url(images/image-product-mobile.jpg);
+    display: block;
+    height: 240px;
+    width: 343px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 12px 12px 0 0;
+    }
+    
+    .containerGeneral{
+    background-color: white;
+    margin: auto;
+    height: 600px;
+    width: 343px;
+    border-radius: 12px;
+    }
+    
+    .containerMainInfo{
+    display: block;
+    height: 311px;
+    width: 268px;
+    border-radius: 0 0 12px 12px;
+    }
+    
+    h1 {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0;
+    line-height: 30px;
+    }
+    
+    p{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    }
+    
+    .containerPrice{
+    padding-top: 25px;
+    height: 50px;
+    width: 270px;
+    }
+    
+    .actualPrice{
+    font-size: 24px;
+    padding: 0;
+    height: 30px;
+    width: 120px;
+    }
+    
+    .discount{
+    float: left;
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+    font-size: 12px;
+    height: 15px;
+    width: 150px;
+    }
+
+    .CTA{
+    background-color: hsl(158, 36%, 37%);
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    height: 18px;
+    width: 240px;
+    }
+}
